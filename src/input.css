@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body, h1, h2, h3, h4, h5, h6, p, a, span, li{
+        font-family: "dana" !important;
+    }
+    .cu-shadow-md{
+        box-shadow: 0px 0px 20px -8px #00000050;
+    }
+    .cu-clips-md{
+        clip-path: polygon(14% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .cu-clips-sm-l{
+        clip-path: polygon(20.50% 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .cu-clips-sm-r{
+        clip-path: polygon(0 0, 100% 0, 83% 100%, 0 100%);
+    }
+    .cu-clips-sm-l-b{
+        clip-path: polygon(14.25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .cu-clips-Trapezius{
+        clip-path: polygon(16% 0%, 100% 0%, 84% 100%, 0% 100%);
+    }
+    .cu-right{right:39vw}
+    .cu-margin-left{margin-left: -8.25rem;}
+   
+    a {
+        cursor: pointer;
+    }
+    .swiper-button-prev.cu {
+        right: -1rem;
+    }
+    .swiper-button-next.cu{
+        left: -1rem;
+    }
+   
+}
+
